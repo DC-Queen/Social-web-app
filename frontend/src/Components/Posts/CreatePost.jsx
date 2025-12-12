@@ -11,7 +11,7 @@ export default function CreatePost() {
     try {
       createPost({ content: content });
       setContent("");
-      //alert('Post has been created successfully')
+       //alert('Post has been created successfully')
     } catch (err) {
       console.log(err);
       alert(err.message);
