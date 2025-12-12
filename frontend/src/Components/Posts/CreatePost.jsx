@@ -11,7 +11,11 @@ export default function CreatePost() {
     try {
       createPost({ content: content });
       setContent("");
+<<<<<<< HEAD
        //alert('Post has been created successfully')
+=======
+      alert('Post has been created successfully')
+>>>>>>> main
     } catch (err) {
       console.log(err);
       alert(err.message);
