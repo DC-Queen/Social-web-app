@@ -17,6 +17,7 @@ export default function CreatePost() {
       alert(err.message);
     }
   };
+  
   return (
     <div className="create-post-container">
       <form className="create-post-form" onSubmit={handleSubmit}>

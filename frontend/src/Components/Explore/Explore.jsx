@@ -55,9 +55,9 @@ export default function Explore() {
         {users?.map((user) => {
           <li key={user._id} className="user-item">
             <h2>{user.username}</h2>
-            <P>{user.email}</P>
-            <P>Followers:{user.followers.length}</P>
-            <P>Following:{user.followers.length}</P>
+            <p>{user.email}</p>
+            <p>Followers:{user.followers.length}</p>
+            <p>Following:{user.followers.length}</p>
             {
             user.isFollowing?(
               <button
